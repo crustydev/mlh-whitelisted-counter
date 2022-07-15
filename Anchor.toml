@@ -1,0 +1,16 @@
+[features]
+seeds = false
+[programs.devnet]
+counter = "Bt86r9ytWScWYfVd6sNefoVcow1TRw3ncvYPQ93BZgWP"
+whitelist = "6Ks63cD2xLXF6umVaSZLJY6ejxinDTJvjE3X3GtezUcM"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/home/ademola/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
+
